@@ -1,7 +1,0 @@
-# Core dependencies (standard library only):
-# - os
-# - shutil
-# - typing
-
-# Optional dependency for DOCX header modification:
-python-docx>=1.0.0
