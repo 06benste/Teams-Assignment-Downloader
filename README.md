@@ -53,13 +53,13 @@ pip install -r requirements.txt
 
 Run the script:
 ```bash
-python tud_downloader.py
+python TeamsAssignmentDownloader.py
 ```
 
 The program will prompt you for:
 1. **Submitted files folder path**: The root folder containing student submissions
    - Structure: `<Root>\<Student Name>\<Assignment Name>\<files>`
-   - Example: `C:\Users\<you>\...\NCFE Y11 (2024-2026) - Submitted files`
+   - Example: `C:\Users\<you>\...\Class A (2024-2026) - Submitted files`
 2. **Assignment selection**: Choose which assignment to extract from detected subfolders
 3. **Output folder**: Where to save the renamed files (defaults to `downloads/<assignment_name>`)
 
@@ -122,3 +122,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## Acknowledgments
 
 Built for educators who need to quickly organize and review student assignment submissions from Microsoft Teams.
+
